@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Input</title>
+</head>
+<body>
+<button id="first">first_name</button>
+<button id="Age">age</button>
+<p>
+Your Name is <span id="outputName">____</span>. You are <span id="outputAge">____</span> old.
+</p>
+<script>
+document.getElementById("first").onclick = function(){
+  var first = prompt("Enter your name");
+  document.getElementById("outputfirst_name").innerText = first;
+}
+  document.getElementById("Age").onclick = function(){
+  var age= prompt("Enter your age");
+  document.getElementById("GetAge").innerText = age;
+}
+
+
+
+
+</script>
+</body>
+</html>
